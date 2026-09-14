@@ -1,0 +1,4 @@
+employee_id,name,home_address,transport_mode,facility_id,address,distance_km,emission_kgco2_per_day,annual_emission_kgco2
+1,Ali,"Tunis, Tunisia",car,100,"Université de Tunis El Manar, Tunis, Tunisia",7.1912,1.510152,332.23344
+2,Sarah,"Ariana, Tunisia",bus,100,"Université de Tunis El Manar, Tunis, Tunisia",21.7043,2.17043,477.4946
+3,Omar,"La Marsa, Tunisia",train,100,"Université de Tunis El Manar, Tunis, Tunisia",19.2808,0.771232,169.67104

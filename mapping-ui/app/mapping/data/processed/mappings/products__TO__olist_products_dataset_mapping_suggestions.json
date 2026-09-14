@@ -1,0 +1,195 @@
+{
+  "source_file": "C:/Users/yessine/ai_journey/projects/stage/data/processed/products.csv",
+  "target_file": "C:/Users/yessine/ai_journey/projects/stage/data/olist_products_dataset.csv",
+  "model": "all-MiniLM-L6-v2",
+  "top_k": 5,
+  "sample_rows": 2000,
+  "suggestions": [
+    {
+      "source_column": "product_id",
+      "source_profile": "column: product_id | normalized: product id | type: id_or_measure | stats: min=1, mean=39, max=77",
+      "candidates": [
+        {
+          "target_column": "product_name_lenght",
+          "confidence": 0.8310074806213379,
+          "target_profile": "column: product_name_lenght | normalized: product name lenght | type: numeric | stats: min=10, mean=48.78, max=64"
+        },
+        {
+          "target_column": "product_weight_g",
+          "confidence": 0.7902390956878662,
+          "target_profile": "column: product_weight_g | normalized: product weight g | type: numeric | stats: min=50, mean=2206, max=3e+04"
+        },
+        {
+          "target_column": "product_length_cm",
+          "confidence": 0.7893328070640564,
+          "target_profile": "column: product_length_cm | normalized: product length cm | type: numeric | stats: min=8, mean=30.45, max=105"
+        },
+        {
+          "target_column": "product_description_lenght",
+          "confidence": 0.7876788377761841,
+          "target_profile": "column: product_description_lenght | normalized: product description lenght | type: numeric | stats: min=42, mean=759.3, max=3954"
+        },
+        {
+          "target_column": "product_width_cm",
+          "confidence": 0.7754991054534912,
+          "target_profile": "column: product_width_cm | normalized: product width cm | type: numeric | stats: min=6, mean=23.07, max=105"
+        }
+      ]
+    },
+    {
+      "source_column": "product_name",
+      "source_profile": "column: product_name | normalized: product name | type: text | samples: [Chai, Chang, Aniseed Syrup, Chef Anton's Cajun Seasoning, Chef Anton's Gumbo Mix, Grandma's Boysenberry Spread]",
+      "candidates": [
+        {
+          "target_column": "product_category_name",
+          "confidence": 0.7542160749435425,
+          "target_profile": "column: product_category_name | normalized: product category name | type: text | samples: [perfumaria, artes, esporte_lazer, bebes, utilidades_domesticas, instrumentos_musicais]"
+        },
+        {
+          "target_column": "product_id",
+          "confidence": 0.6732009649276733,
+          "target_profile": "column: product_id | normalized: product id | type: text | samples: [1e9e8ef04dbcff4541ed26657ea517e5, 3aa071139cb16b67ca9e5dea641aaa2f, 96bd76ec8810374ed1b65e291975717f, cef67bcfe19066a932b7673e239eb23d, 9dc1a7de274444849c219cff195d0b71, 41d3672d4792049fa1779bb35283ed13]"
+        },
+        {
+          "target_column": "product_description_lenght",
+          "confidence": 0.5772842764854431,
+          "target_profile": "column: product_description_lenght | normalized: product description lenght | type: numeric | stats: min=42, mean=759.3, max=3954"
+        },
+        {
+          "target_column": "product_name_lenght",
+          "confidence": 0.5765576362609863,
+          "target_profile": "column: product_name_lenght | normalized: product name lenght | type: numeric | stats: min=10, mean=48.78, max=64"
+        },
+        {
+          "target_column": "product_length_cm",
+          "confidence": 0.4927162528038025,
+          "target_profile": "column: product_length_cm | normalized: product length cm | type: numeric | stats: min=8, mean=30.45, max=105"
+        }
+      ]
+    },
+    {
+      "source_column": "supplier_id",
+      "source_profile": "column: supplier_id | normalized: supplier id | type: numeric | stats: min=1, mean=13.65, max=29",
+      "candidates": [
+        {
+          "target_column": "product_weight_g",
+          "confidence": 0.7423731088638306,
+          "target_profile": "column: product_weight_g | normalized: product weight g | type: numeric | stats: min=50, mean=2206, max=3e+04"
+        },
+        {
+          "target_column": "product_length_cm",
+          "confidence": 0.7322565317153931,
+          "target_profile": "column: product_length_cm | normalized: product length cm | type: numeric | stats: min=8, mean=30.45, max=105"
+        },
+        {
+          "target_column": "product_width_cm",
+          "confidence": 0.7229679822921753,
+          "target_profile": "column: product_width_cm | normalized: product width cm | type: numeric | stats: min=6, mean=23.07, max=105"
+        },
+        {
+          "target_column": "product_name_lenght",
+          "confidence": 0.715735673904419,
+          "target_profile": "column: product_name_lenght | normalized: product name lenght | type: numeric | stats: min=10, mean=48.78, max=64"
+        },
+        {
+          "target_column": "product_photos_qty",
+          "confidence": 0.7105945944786072,
+          "target_profile": "column: product_photos_qty | normalized: product photos qty | type: numeric | stats: min=1, mean=2.21, max=17"
+        }
+      ]
+    },
+    {
+      "source_column": "category_id",
+      "source_profile": "column: category_id | normalized: category id | type: numeric | stats: min=1, mean=4.117, max=8",
+      "candidates": [
+        {
+          "target_column": "product_weight_g",
+          "confidence": 0.6689197421073914,
+          "target_profile": "column: product_weight_g | normalized: product weight g | type: numeric | stats: min=50, mean=2206, max=3e+04"
+        },
+        {
+          "target_column": "product_width_cm",
+          "confidence": 0.664007306098938,
+          "target_profile": "column: product_width_cm | normalized: product width cm | type: numeric | stats: min=6, mean=23.07, max=105"
+        },
+        {
+          "target_column": "product_length_cm",
+          "confidence": 0.6616302728652954,
+          "target_profile": "column: product_length_cm | normalized: product length cm | type: numeric | stats: min=8, mean=30.45, max=105"
+        },
+        {
+          "target_column": "product_description_lenght",
+          "confidence": 0.6485848426818848,
+          "target_profile": "column: product_description_lenght | normalized: product description lenght | type: numeric | stats: min=42, mean=759.3, max=3954"
+        },
+        {
+          "target_column": "product_name_lenght",
+          "confidence": 0.6449594497680664,
+          "target_profile": "column: product_name_lenght | normalized: product name lenght | type: numeric | stats: min=10, mean=48.78, max=64"
+        }
+      ]
+    },
+    {
+      "source_column": "unit_price",
+      "source_profile": "column: unit_price | normalized: unit price | type: numeric | stats: min=2.5, mean=28.87, max=263.5",
+      "candidates": [
+        {
+          "target_column": "product_length_cm",
+          "confidence": 0.7651596069335938,
+          "target_profile": "column: product_length_cm | normalized: product length cm | type: numeric | stats: min=8, mean=30.45, max=105"
+        },
+        {
+          "target_column": "product_height_cm",
+          "confidence": 0.7586351633071899,
+          "target_profile": "column: product_height_cm | normalized: product height cm | type: numeric | stats: min=2, mean=16.32, max=105"
+        },
+        {
+          "target_column": "product_width_cm",
+          "confidence": 0.7488282918930054,
+          "target_profile": "column: product_width_cm | normalized: product width cm | type: numeric | stats: min=6, mean=23.07, max=105"
+        },
+        {
+          "target_column": "product_weight_g",
+          "confidence": 0.7417234182357788,
+          "target_profile": "column: product_weight_g | normalized: product weight g | type: numeric | stats: min=50, mean=2206, max=3e+04"
+        },
+        {
+          "target_column": "product_name_lenght",
+          "confidence": 0.7067378759384155,
+          "target_profile": "column: product_name_lenght | normalized: product name lenght | type: numeric | stats: min=10, mean=48.78, max=64"
+        }
+      ]
+    },
+    {
+      "source_column": "units_in_stock",
+      "source_profile": "column: units_in_stock | normalized: units in stock | type: numeric | stats: min=0, mean=40.51, max=125",
+      "candidates": [
+        {
+          "target_column": "product_weight_g",
+          "confidence": 0.7801436185836792,
+          "target_profile": "column: product_weight_g | normalized: product weight g | type: numeric | stats: min=50, mean=2206, max=3e+04"
+        },
+        {
+          "target_column": "product_length_cm",
+          "confidence": 0.7791067361831665,
+          "target_profile": "column: product_length_cm | normalized: product length cm | type: numeric | stats: min=8, mean=30.45, max=105"
+        },
+        {
+          "target_column": "product_width_cm",
+          "confidence": 0.7592716813087463,
+          "target_profile": "column: product_width_cm | normalized: product width cm | type: numeric | stats: min=6, mean=23.07, max=105"
+        },
+        {
+          "target_column": "product_height_cm",
+          "confidence": 0.7458426356315613,
+          "target_profile": "column: product_height_cm | normalized: product height cm | type: numeric | stats: min=2, mean=16.32, max=105"
+        },
+        {
+          "target_column": "product_name_lenght",
+          "confidence": 0.7428241968154907,
+          "target_profile": "column: product_name_lenght | normalized: product name lenght | type: numeric | stats: min=10, mean=48.78, max=64"
+        }
+      ]
+    }
+  ]
+}

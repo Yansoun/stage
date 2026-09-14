@@ -1,0 +1,13 @@
+{
+  "job_id": "products__TO__olist_sellers_dataset_mapping_suggestions",
+  "source_file": "C:/Users/yessine/ai_journey/projects/stage/data/processed/products.csv",
+  "target_file": "C:/Users/yessine/ai_journey/projects/stage/data/olist_sellers_dataset.csv",
+  "approved_mapping": {
+    "product_id": null,
+    "product_name": null,
+    "supplier_id": null,
+    "category_id": null,
+    "unit_price": null,
+    "units_in_stock": null
+  }
+}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # dependencies
 node_modules
 
@@ -14,8 +15,28 @@ pnpm-debug.log*
 # env files
 .env.local
 .env.*.local
+=======
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Data outputs (optional - usually don't commit big generated files)
+data/logs/
+data/processed/*.csv
+
+# Next.js
+mapping-ui/node_modules/
+mapping-ui/.next/
+mapping-ui/out/
+mapping-ui/.env.local
+>>>>>>> c70071e (Initial full project commit)
 
 # OS / editor
 .DS_Store
 Thumbs.db
+<<<<<<< HEAD
 .vscode
+=======
+.vscode/
+>>>>>>> c70071e (Initial full project commit)

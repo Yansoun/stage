@@ -1,0 +1,431 @@
+{
+  "source_file": "C:/Users/yessine/ai_journey/projects/stage/data/processed/products.csv",
+  "target_file": "C:/Users/yessine/ai_journey/projects/stage/data/olist_sellers_dataset.csv",
+  "model": "all-MiniLM-L6-v2",
+  "top_k": 5,
+  "sample_rows": 2000,
+  "threshold": 0.72,
+  "suggestions": [
+    {
+      "source_column": "product_id",
+      "source_info": {
+        "normalized": "product_id",
+        "tokens": [
+          "id",
+          "product"
+        ],
+        "semantic_type": "id",
+        "group": "id"
+      },
+      "best_target": "UNMAPPED",
+      "best_confidence": 0.7057886719703674,
+      "candidates": [
+        {
+          "target_column": "seller_id",
+          "confidence": 0.7057886719703674,
+          "target_info": {
+            "normalized": "seller_id",
+            "tokens": [
+              "id",
+              "seller"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "seller_state",
+          "confidence": 0.2930215001106262,
+          "target_info": {
+            "normalized": "seller_state",
+            "tokens": [
+              "seller",
+              "state"
+            ],
+            "semantic_type": "text",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "seller_city",
+          "confidence": 0.2727043628692627,
+          "target_info": {
+            "normalized": "seller_city",
+            "tokens": [
+              "city",
+              "seller"
+            ],
+            "semantic_type": "text",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "seller_zip_code_prefix",
+          "confidence": 0.269011527299881,
+          "target_info": {
+            "normalized": "seller_zip_code_prefix",
+            "tokens": [
+              "code",
+              "prefix",
+              "seller",
+              "zip"
+            ],
+            "semantic_type": "numeric",
+            "group": "other"
+          }
+        }
+      ]
+    },
+    {
+      "source_column": "product_name",
+      "source_info": {
+        "normalized": "product_name",
+        "tokens": [
+          "name",
+          "product"
+        ],
+        "semantic_type": "text",
+        "group": "other"
+      },
+      "best_target": "UNMAPPED",
+      "best_confidence": 0.4200459122657776,
+      "candidates": [
+        {
+          "target_column": "seller_city",
+          "confidence": 0.4200459122657776,
+          "target_info": {
+            "normalized": "seller_city",
+            "tokens": [
+              "city",
+              "seller"
+            ],
+            "semantic_type": "text",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "seller_state",
+          "confidence": 0.38387808203697205,
+          "target_info": {
+            "normalized": "seller_state",
+            "tokens": [
+              "seller",
+              "state"
+            ],
+            "semantic_type": "text",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "seller_id",
+          "confidence": 0.30107957124710083,
+          "target_info": {
+            "normalized": "seller_id",
+            "tokens": [
+              "id",
+              "seller"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "seller_zip_code_prefix",
+          "confidence": 0.21613530814647675,
+          "target_info": {
+            "normalized": "seller_zip_code_prefix",
+            "tokens": [
+              "code",
+              "prefix",
+              "seller",
+              "zip"
+            ],
+            "semantic_type": "numeric",
+            "group": "other"
+          }
+        }
+      ]
+    },
+    {
+      "source_column": "supplier_id",
+      "source_info": {
+        "normalized": "supplier_id",
+        "tokens": [
+          "id",
+          "supplier"
+        ],
+        "semantic_type": "id",
+        "group": "id"
+      },
+      "best_target": "UNMAPPED",
+      "best_confidence": 0.6781802177429199,
+      "candidates": [
+        {
+          "target_column": "seller_id",
+          "confidence": 0.6781802177429199,
+          "target_info": {
+            "normalized": "seller_id",
+            "tokens": [
+              "id",
+              "seller"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "seller_zip_code_prefix",
+          "confidence": 0.31533366441726685,
+          "target_info": {
+            "normalized": "seller_zip_code_prefix",
+            "tokens": [
+              "code",
+              "prefix",
+              "seller",
+              "zip"
+            ],
+            "semantic_type": "numeric",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "seller_state",
+          "confidence": 0.3069625496864319,
+          "target_info": {
+            "normalized": "seller_state",
+            "tokens": [
+              "seller",
+              "state"
+            ],
+            "semantic_type": "text",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "seller_city",
+          "confidence": 0.2832479774951935,
+          "target_info": {
+            "normalized": "seller_city",
+            "tokens": [
+              "city",
+              "seller"
+            ],
+            "semantic_type": "text",
+            "group": "other"
+          }
+        }
+      ]
+    },
+    {
+      "source_column": "category_id",
+      "source_info": {
+        "normalized": "category_id",
+        "tokens": [
+          "category",
+          "id"
+        ],
+        "semantic_type": "id",
+        "group": "id"
+      },
+      "best_target": "UNMAPPED",
+      "best_confidence": 0.5117836594581604,
+      "candidates": [
+        {
+          "target_column": "seller_id",
+          "confidence": 0.5117836594581604,
+          "target_info": {
+            "normalized": "seller_id",
+            "tokens": [
+              "id",
+              "seller"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "seller_zip_code_prefix",
+          "confidence": 0.21366636455059052,
+          "target_info": {
+            "normalized": "seller_zip_code_prefix",
+            "tokens": [
+              "code",
+              "prefix",
+              "seller",
+              "zip"
+            ],
+            "semantic_type": "numeric",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "seller_city",
+          "confidence": 0.13592787086963654,
+          "target_info": {
+            "normalized": "seller_city",
+            "tokens": [
+              "city",
+              "seller"
+            ],
+            "semantic_type": "text",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "seller_state",
+          "confidence": 0.12397308647632599,
+          "target_info": {
+            "normalized": "seller_state",
+            "tokens": [
+              "seller",
+              "state"
+            ],
+            "semantic_type": "text",
+            "group": "other"
+          }
+        }
+      ]
+    },
+    {
+      "source_column": "unit_price",
+      "source_info": {
+        "normalized": "unit_price",
+        "tokens": [
+          "price",
+          "unit"
+        ],
+        "semantic_type": "numeric",
+        "group": "price"
+      },
+      "best_target": "UNMAPPED",
+      "best_confidence": 0.27458077669143677,
+      "candidates": [
+        {
+          "target_column": "seller_id",
+          "confidence": 0.27458077669143677,
+          "target_info": {
+            "normalized": "seller_id",
+            "tokens": [
+              "id",
+              "seller"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "seller_zip_code_prefix",
+          "confidence": 0.26202115416526794,
+          "target_info": {
+            "normalized": "seller_zip_code_prefix",
+            "tokens": [
+              "code",
+              "prefix",
+              "seller",
+              "zip"
+            ],
+            "semantic_type": "numeric",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "seller_city",
+          "confidence": 0.2231455147266388,
+          "target_info": {
+            "normalized": "seller_city",
+            "tokens": [
+              "city",
+              "seller"
+            ],
+            "semantic_type": "text",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "seller_state",
+          "confidence": 0.2212258279323578,
+          "target_info": {
+            "normalized": "seller_state",
+            "tokens": [
+              "seller",
+              "state"
+            ],
+            "semantic_type": "text",
+            "group": "other"
+          }
+        }
+      ]
+    },
+    {
+      "source_column": "units_in_stock",
+      "source_info": {
+        "normalized": "units_in_stock",
+        "tokens": [
+          "in",
+          "stock",
+          "units"
+        ],
+        "semantic_type": "numeric",
+        "group": "other"
+      },
+      "best_target": "UNMAPPED",
+      "best_confidence": 0.30944374203681946,
+      "candidates": [
+        {
+          "target_column": "seller_zip_code_prefix",
+          "confidence": 0.30944374203681946,
+          "target_info": {
+            "normalized": "seller_zip_code_prefix",
+            "tokens": [
+              "code",
+              "prefix",
+              "seller",
+              "zip"
+            ],
+            "semantic_type": "numeric",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "seller_id",
+          "confidence": 0.2801711857318878,
+          "target_info": {
+            "normalized": "seller_id",
+            "tokens": [
+              "id",
+              "seller"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "seller_city",
+          "confidence": 0.2717198431491852,
+          "target_info": {
+            "normalized": "seller_city",
+            "tokens": [
+              "city",
+              "seller"
+            ],
+            "semantic_type": "text",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "seller_state",
+          "confidence": 0.25882914662361145,
+          "target_info": {
+            "normalized": "seller_state",
+            "tokens": [
+              "seller",
+              "state"
+            ],
+            "semantic_type": "text",
+            "group": "other"
+          }
+        }
+      ]
+    }
+  ]
+}

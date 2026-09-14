@@ -1,0 +1,496 @@
+{
+  "source_file": "C:/Users/yessine/ai_journey/projects/stage/data/processed/products.csv",
+  "target_file": "C:/Users/yessine/ai_journey/projects/stage/data/olist_order_items_dataset.csv",
+  "model": "all-MiniLM-L6-v2",
+  "top_k": 5,
+  "sample_rows": 2000,
+  "threshold": 0.72,
+  "suggestions": [
+    {
+      "source_column": "product_id",
+      "source_info": {
+        "normalized": "product_id",
+        "tokens": [
+          "id",
+          "product"
+        ],
+        "semantic_type": "id",
+        "group": "id"
+      },
+      "best_target": "product_id",
+      "best_confidence": 1.0,
+      "candidates": [
+        {
+          "target_column": "product_id",
+          "confidence": 1.0,
+          "target_info": {
+            "normalized": "product_id",
+            "tokens": [
+              "id",
+              "product"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "seller_id",
+          "confidence": 0.7057886719703674,
+          "target_info": {
+            "normalized": "seller_id",
+            "tokens": [
+              "id",
+              "seller"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "order_id",
+          "confidence": 0.6109706163406372,
+          "target_info": {
+            "normalized": "order_id",
+            "tokens": [
+              "id",
+              "order"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "order_item_id",
+          "confidence": 0.5924343466758728,
+          "target_info": {
+            "normalized": "order_item_id",
+            "tokens": [
+              "id",
+              "item",
+              "order"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "price",
+          "confidence": 0.34820690751075745,
+          "target_info": {
+            "normalized": "price",
+            "tokens": [
+              "price"
+            ],
+            "semantic_type": "numeric",
+            "group": "price"
+          }
+        }
+      ]
+    },
+    {
+      "source_column": "product_name",
+      "source_info": {
+        "normalized": "product_name",
+        "tokens": [
+          "name",
+          "product"
+        ],
+        "semantic_type": "text",
+        "group": "other"
+      },
+      "best_target": "UNMAPPED",
+      "best_confidence": 0.5275040864944458,
+      "candidates": [
+        {
+          "target_column": "product_id",
+          "confidence": 0.5275040864944458,
+          "target_info": {
+            "normalized": "product_id",
+            "tokens": [
+              "id",
+              "product"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "seller_id",
+          "confidence": 0.30107957124710083,
+          "target_info": {
+            "normalized": "seller_id",
+            "tokens": [
+              "id",
+              "seller"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "price",
+          "confidence": 0.2822406589984894,
+          "target_info": {
+            "normalized": "price",
+            "tokens": [
+              "price"
+            ],
+            "semantic_type": "numeric",
+            "group": "price"
+          }
+        },
+        {
+          "target_column": "order_item_id",
+          "confidence": 0.22613127529621124,
+          "target_info": {
+            "normalized": "order_item_id",
+            "tokens": [
+              "id",
+              "item",
+              "order"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "order_id",
+          "confidence": 0.21586644649505615,
+          "target_info": {
+            "normalized": "order_id",
+            "tokens": [
+              "id",
+              "order"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        }
+      ]
+    },
+    {
+      "source_column": "supplier_id",
+      "source_info": {
+        "normalized": "supplier_id",
+        "tokens": [
+          "id",
+          "supplier"
+        ],
+        "semantic_type": "id",
+        "group": "id"
+      },
+      "best_target": "UNMAPPED",
+      "best_confidence": 0.6781802177429199,
+      "candidates": [
+        {
+          "target_column": "seller_id",
+          "confidence": 0.6781802177429199,
+          "target_info": {
+            "normalized": "seller_id",
+            "tokens": [
+              "id",
+              "seller"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "order_id",
+          "confidence": 0.654084324836731,
+          "target_info": {
+            "normalized": "order_id",
+            "tokens": [
+              "id",
+              "order"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "product_id",
+          "confidence": 0.6533769965171814,
+          "target_info": {
+            "normalized": "product_id",
+            "tokens": [
+              "id",
+              "product"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "order_item_id",
+          "confidence": 0.5948308706283569,
+          "target_info": {
+            "normalized": "order_item_id",
+            "tokens": [
+              "id",
+              "item",
+              "order"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "price",
+          "confidence": 0.2871335744857788,
+          "target_info": {
+            "normalized": "price",
+            "tokens": [
+              "price"
+            ],
+            "semantic_type": "numeric",
+            "group": "price"
+          }
+        }
+      ]
+    },
+    {
+      "source_column": "category_id",
+      "source_info": {
+        "normalized": "category_id",
+        "tokens": [
+          "category",
+          "id"
+        ],
+        "semantic_type": "id",
+        "group": "id"
+      },
+      "best_target": "UNMAPPED",
+      "best_confidence": 0.5627075433731079,
+      "candidates": [
+        {
+          "target_column": "product_id",
+          "confidence": 0.5627075433731079,
+          "target_info": {
+            "normalized": "product_id",
+            "tokens": [
+              "id",
+              "product"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "order_id",
+          "confidence": 0.5567572116851807,
+          "target_info": {
+            "normalized": "order_id",
+            "tokens": [
+              "id",
+              "order"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "order_item_id",
+          "confidence": 0.5328616499900818,
+          "target_info": {
+            "normalized": "order_item_id",
+            "tokens": [
+              "id",
+              "item",
+              "order"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "seller_id",
+          "confidence": 0.5117836594581604,
+          "target_info": {
+            "normalized": "seller_id",
+            "tokens": [
+              "id",
+              "seller"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "price",
+          "confidence": 0.18702784180641174,
+          "target_info": {
+            "normalized": "price",
+            "tokens": [
+              "price"
+            ],
+            "semantic_type": "numeric",
+            "group": "price"
+          }
+        }
+      ]
+    },
+    {
+      "source_column": "unit_price",
+      "source_info": {
+        "normalized": "unit_price",
+        "tokens": [
+          "price",
+          "unit"
+        ],
+        "semantic_type": "numeric",
+        "group": "price"
+      },
+      "best_target": "price",
+      "best_confidence": 0.724027693271637,
+      "candidates": [
+        {
+          "target_column": "price",
+          "confidence": 0.724027693271637,
+          "target_info": {
+            "normalized": "price",
+            "tokens": [
+              "price"
+            ],
+            "semantic_type": "numeric",
+            "group": "price"
+          }
+        },
+        {
+          "target_column": "freight_value",
+          "confidence": 0.4696934223175049,
+          "target_info": {
+            "normalized": "freight_value",
+            "tokens": [
+              "freight",
+              "value"
+            ],
+            "semantic_type": "numeric",
+            "group": "price"
+          }
+        },
+        {
+          "target_column": "product_id",
+          "confidence": 0.2766071856021881,
+          "target_info": {
+            "normalized": "product_id",
+            "tokens": [
+              "id",
+              "product"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "seller_id",
+          "confidence": 0.27458077669143677,
+          "target_info": {
+            "normalized": "seller_id",
+            "tokens": [
+              "id",
+              "seller"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "order_item_id",
+          "confidence": 0.19547833502292633,
+          "target_info": {
+            "normalized": "order_item_id",
+            "tokens": [
+              "id",
+              "item",
+              "order"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        }
+      ]
+    },
+    {
+      "source_column": "units_in_stock",
+      "source_info": {
+        "normalized": "units_in_stock",
+        "tokens": [
+          "in",
+          "stock",
+          "units"
+        ],
+        "semantic_type": "numeric",
+        "group": "other"
+      },
+      "best_target": "UNMAPPED",
+      "best_confidence": 0.4226631224155426,
+      "candidates": [
+        {
+          "target_column": "price",
+          "confidence": 0.4226631224155426,
+          "target_info": {
+            "normalized": "price",
+            "tokens": [
+              "price"
+            ],
+            "semantic_type": "numeric",
+            "group": "price"
+          }
+        },
+        {
+          "target_column": "freight_value",
+          "confidence": 0.41338637471199036,
+          "target_info": {
+            "normalized": "freight_value",
+            "tokens": [
+              "freight",
+              "value"
+            ],
+            "semantic_type": "numeric",
+            "group": "price"
+          }
+        },
+        {
+          "target_column": "product_id",
+          "confidence": 0.29036444425582886,
+          "target_info": {
+            "normalized": "product_id",
+            "tokens": [
+              "id",
+              "product"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "seller_id",
+          "confidence": 0.2801711857318878,
+          "target_info": {
+            "normalized": "seller_id",
+            "tokens": [
+              "id",
+              "seller"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "order_id",
+          "confidence": 0.23985856771469116,
+          "target_info": {
+            "normalized": "order_id",
+            "tokens": [
+              "id",
+              "order"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        }
+      ]
+    }
+  ]
+}

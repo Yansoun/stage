@@ -1,0 +1,523 @@
+{
+  "source_file": "C:/Users/yessine/ai_journey/projects/stage/data/processed/products.csv",
+  "target_file": "C:/Users/yessine/ai_journey/projects/stage/data/olist_products_dataset.csv",
+  "model": "all-MiniLM-L6-v2",
+  "top_k": 5,
+  "sample_rows": 2000,
+  "threshold": 0.72,
+  "suggestions": [
+    {
+      "source_column": "product_id",
+      "source_info": {
+        "normalized": "product_id",
+        "tokens": [
+          "id",
+          "product"
+        ],
+        "semantic_type": "id",
+        "group": "id"
+      },
+      "best_target": "product_id",
+      "best_confidence": 1.0,
+      "candidates": [
+        {
+          "target_column": "product_id",
+          "confidence": 1.0,
+          "target_info": {
+            "normalized": "product_id",
+            "tokens": [
+              "id",
+              "product"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "product_name_lenght",
+          "confidence": 0.505229115486145,
+          "target_info": {
+            "normalized": "product_name_lenght",
+            "tokens": [
+              "lenght",
+              "name",
+              "product"
+            ],
+            "semantic_type": "numeric",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "product_description_lenght",
+          "confidence": 0.41614091396331787,
+          "target_info": {
+            "normalized": "product_description_lenght",
+            "tokens": [
+              "description",
+              "lenght",
+              "product"
+            ],
+            "semantic_type": "numeric",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "product_category_name",
+          "confidence": 0.38890382647514343,
+          "target_info": {
+            "normalized": "product_category_name",
+            "tokens": [
+              "category",
+              "name",
+              "product"
+            ],
+            "semantic_type": "text",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "product_weight_g",
+          "confidence": 0.36498695611953735,
+          "target_info": {
+            "normalized": "product_weight_g",
+            "tokens": [
+              "g",
+              "product",
+              "weight"
+            ],
+            "semantic_type": "numeric",
+            "group": "weight"
+          }
+        }
+      ]
+    },
+    {
+      "source_column": "product_name",
+      "source_info": {
+        "normalized": "product_name",
+        "tokens": [
+          "name",
+          "product"
+        ],
+        "semantic_type": "text",
+        "group": "other"
+      },
+      "best_target": "product_category_name",
+      "best_confidence": 0.7402539253234863,
+      "candidates": [
+        {
+          "target_column": "product_category_name",
+          "confidence": 0.7402539253234863,
+          "target_info": {
+            "normalized": "product_category_name",
+            "tokens": [
+              "category",
+              "name",
+              "product"
+            ],
+            "semantic_type": "text",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "product_name_lenght",
+          "confidence": 0.6631262898445129,
+          "target_info": {
+            "normalized": "product_name_lenght",
+            "tokens": [
+              "lenght",
+              "name",
+              "product"
+            ],
+            "semantic_type": "numeric",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "product_id",
+          "confidence": 0.5275040864944458,
+          "target_info": {
+            "normalized": "product_id",
+            "tokens": [
+              "id",
+              "product"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "product_description_lenght",
+          "confidence": 0.40381568670272827,
+          "target_info": {
+            "normalized": "product_description_lenght",
+            "tokens": [
+              "description",
+              "lenght",
+              "product"
+            ],
+            "semantic_type": "numeric",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "product_weight_g",
+          "confidence": 0.3706417977809906,
+          "target_info": {
+            "normalized": "product_weight_g",
+            "tokens": [
+              "g",
+              "product",
+              "weight"
+            ],
+            "semantic_type": "numeric",
+            "group": "weight"
+          }
+        }
+      ]
+    },
+    {
+      "source_column": "supplier_id",
+      "source_info": {
+        "normalized": "supplier_id",
+        "tokens": [
+          "id",
+          "supplier"
+        ],
+        "semantic_type": "id",
+        "group": "id"
+      },
+      "best_target": "UNMAPPED",
+      "best_confidence": 0.6533769965171814,
+      "candidates": [
+        {
+          "target_column": "product_id",
+          "confidence": 0.6533769965171814,
+          "target_info": {
+            "normalized": "product_id",
+            "tokens": [
+              "id",
+              "product"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "product_name_lenght",
+          "confidence": 0.32657718658447266,
+          "target_info": {
+            "normalized": "product_name_lenght",
+            "tokens": [
+              "lenght",
+              "name",
+              "product"
+            ],
+            "semantic_type": "numeric",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "product_description_lenght",
+          "confidence": 0.2709426283836365,
+          "target_info": {
+            "normalized": "product_description_lenght",
+            "tokens": [
+              "description",
+              "lenght",
+              "product"
+            ],
+            "semantic_type": "numeric",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "product_weight_g",
+          "confidence": 0.2381572276353836,
+          "target_info": {
+            "normalized": "product_weight_g",
+            "tokens": [
+              "g",
+              "product",
+              "weight"
+            ],
+            "semantic_type": "numeric",
+            "group": "weight"
+          }
+        },
+        {
+          "target_column": "product_photos_qty",
+          "confidence": 0.23809951543807983,
+          "target_info": {
+            "normalized": "product_photos_qty",
+            "tokens": [
+              "photos",
+              "product",
+              "quantity"
+            ],
+            "semantic_type": "numeric",
+            "group": "count"
+          }
+        }
+      ]
+    },
+    {
+      "source_column": "category_id",
+      "source_info": {
+        "normalized": "category_id",
+        "tokens": [
+          "category",
+          "id"
+        ],
+        "semantic_type": "id",
+        "group": "id"
+      },
+      "best_target": "UNMAPPED",
+      "best_confidence": 0.5627075433731079,
+      "candidates": [
+        {
+          "target_column": "product_id",
+          "confidence": 0.5627075433731079,
+          "target_info": {
+            "normalized": "product_id",
+            "tokens": [
+              "id",
+              "product"
+            ],
+            "semantic_type": "id",
+            "group": "id"
+          }
+        },
+        {
+          "target_column": "product_category_name",
+          "confidence": 0.4239572286605835,
+          "target_info": {
+            "normalized": "product_category_name",
+            "tokens": [
+              "category",
+              "name",
+              "product"
+            ],
+            "semantic_type": "text",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "product_name_lenght",
+          "confidence": 0.22679433226585388,
+          "target_info": {
+            "normalized": "product_name_lenght",
+            "tokens": [
+              "lenght",
+              "name",
+              "product"
+            ],
+            "semantic_type": "numeric",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "product_description_lenght",
+          "confidence": 0.21568384766578674,
+          "target_info": {
+            "normalized": "product_description_lenght",
+            "tokens": [
+              "description",
+              "lenght",
+              "product"
+            ],
+            "semantic_type": "numeric",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "product_weight_g",
+          "confidence": 0.14680613577365875,
+          "target_info": {
+            "normalized": "product_weight_g",
+            "tokens": [
+              "g",
+              "product",
+              "weight"
+            ],
+            "semantic_type": "numeric",
+            "group": "weight"
+          }
+        }
+      ]
+    },
+    {
+      "source_column": "unit_price",
+      "source_info": {
+        "normalized": "unit_price",
+        "tokens": [
+          "price",
+          "unit"
+        ],
+        "semantic_type": "numeric",
+        "group": "price"
+      },
+      "best_target": "UNMAPPED",
+      "best_confidence": 0.35163614153862,
+      "candidates": [
+        {
+          "target_column": "product_weight_g",
+          "confidence": 0.35163614153862,
+          "target_info": {
+            "normalized": "product_weight_g",
+            "tokens": [
+              "g",
+              "product",
+              "weight"
+            ],
+            "semantic_type": "numeric",
+            "group": "weight"
+          }
+        },
+        {
+          "target_column": "product_description_lenght",
+          "confidence": 0.3450504541397095,
+          "target_info": {
+            "normalized": "product_description_lenght",
+            "tokens": [
+              "description",
+              "lenght",
+              "product"
+            ],
+            "semantic_type": "numeric",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "product_name_lenght",
+          "confidence": 0.33877840638160706,
+          "target_info": {
+            "normalized": "product_name_lenght",
+            "tokens": [
+              "lenght",
+              "name",
+              "product"
+            ],
+            "semantic_type": "numeric",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "product_height_cm",
+          "confidence": 0.31776559352874756,
+          "target_info": {
+            "normalized": "product_height_cm",
+            "tokens": [
+              "cm",
+              "height",
+              "product"
+            ],
+            "semantic_type": "numeric",
+            "group": "dimension"
+          }
+        },
+        {
+          "target_column": "product_length_cm",
+          "confidence": 0.31473103165626526,
+          "target_info": {
+            "normalized": "product_length_cm",
+            "tokens": [
+              "cm",
+              "length",
+              "product"
+            ],
+            "semantic_type": "numeric",
+            "group": "dimension"
+          }
+        }
+      ]
+    },
+    {
+      "source_column": "units_in_stock",
+      "source_info": {
+        "normalized": "units_in_stock",
+        "tokens": [
+          "in",
+          "stock",
+          "units"
+        ],
+        "semantic_type": "numeric",
+        "group": "other"
+      },
+      "best_target": "UNMAPPED",
+      "best_confidence": 0.40150079131126404,
+      "candidates": [
+        {
+          "target_column": "product_weight_g",
+          "confidence": 0.40150079131126404,
+          "target_info": {
+            "normalized": "product_weight_g",
+            "tokens": [
+              "g",
+              "product",
+              "weight"
+            ],
+            "semantic_type": "numeric",
+            "group": "weight"
+          }
+        },
+        {
+          "target_column": "product_length_cm",
+          "confidence": 0.37237122654914856,
+          "target_info": {
+            "normalized": "product_length_cm",
+            "tokens": [
+              "cm",
+              "length",
+              "product"
+            ],
+            "semantic_type": "numeric",
+            "group": "dimension"
+          }
+        },
+        {
+          "target_column": "product_name_lenght",
+          "confidence": 0.36883339285850525,
+          "target_info": {
+            "normalized": "product_name_lenght",
+            "tokens": [
+              "lenght",
+              "name",
+              "product"
+            ],
+            "semantic_type": "numeric",
+            "group": "other"
+          }
+        },
+        {
+          "target_column": "product_photos_qty",
+          "confidence": 0.35167738795280457,
+          "target_info": {
+            "normalized": "product_photos_qty",
+            "tokens": [
+              "photos",
+              "product",
+              "quantity"
+            ],
+            "semantic_type": "numeric",
+            "group": "count"
+          }
+        },
+        {
+          "target_column": "product_width_cm",
+          "confidence": 0.3478277325630188,
+          "target_info": {
+            "normalized": "product_width_cm",
+            "tokens": [
+              "cm",
+              "product",
+              "width"
+            ],
+            "semantic_type": "numeric",
+            "group": "dimension"
+          }
+        }
+      ]
+    }
+  ]
+}
